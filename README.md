@@ -19,3 +19,17 @@ sudo nvim /etc/hosts
 ```shell
 kubectl create secret generic stripe-secret --from-literal=STRIPE_KEY=super-secret
 ```
+
+## Digital Ocean
+
+```shell
+doctl kubernetes cluster kubeconfig save ticketing
+```
+
+```shell
+kubectl config view
+```
+
+```shell
+kubectl config use-context minikube
+```
