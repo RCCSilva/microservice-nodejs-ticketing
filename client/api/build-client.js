@@ -3,7 +3,7 @@ import axios from "axios";
 export default ({ req }) => {
   if (typeof window === 'undefined') {
     return axios.create({
-      baseURL: 'http://dev.rccsilva.com',
+      baseURL: 'http://www.rccsilva.com',
       headers: req?.headers
     })
   }

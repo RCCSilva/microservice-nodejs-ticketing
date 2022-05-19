@@ -9,7 +9,7 @@ metadata:
     # nginx.ingress.kubernetes.io/use-regex: 'true'
 spec:
   rules:
-  - host: dev.rccsilva.com
+  - host: www.rccsilva.com
     http:
       paths:
       - pathType: Prefix
